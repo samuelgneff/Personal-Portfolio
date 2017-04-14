@@ -1,0 +1,50 @@
+header {
+  height: 51px;
+  border-bottom: 1px solid #e7e7e7;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.flex-container {
+  width: 970px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 52px;
+}
+
+.flex-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a{
+  color: #2ecc71;
+}
+
+li {
+  padding: 15px;
+  font-weight: 700px;
+  font-size: 15px;
+
+}
+
+
+#header-title a {
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .3px;
+  font-size: 20px;
+  color: #888;
+}
